@@ -321,7 +321,7 @@ button:focus,
     background: var(--purple);
 }
 
-/* -------------Preloader-Css-Start-------------- */
+/* -------------Preloader Start-------------- */
 
 /* Preloader */
 #preloader {
@@ -344,7 +344,7 @@ button:focus,
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: var(--bg-purple);
+    border-top-color: var(--purple);
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -358,7 +358,7 @@ button:focus,
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: var(--body-text-purple);
+    border-top-color: rgba(167,42,213,1);
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
@@ -406,7 +406,7 @@ button:focus,
 
 
 
-/* -----------Header-Css-Start------------------- */
+/* -----------Header Start------------------- */
 /* header wraper */
 header {
     position: relative;
@@ -650,7 +650,7 @@ header.fixed .navbar {
   }
 
 
-/* ---------Hero-Slider-Css-Start------------------ */
+/* ---------Hero-Slider Start------------------ */
 /* hero banner wraper */
 .banner_section {
     margin-top: 120px;
@@ -901,7 +901,7 @@ position: relative;
 
 
 
-/* ------------Trusted-Section-Css-Start----------- */
+/* ------------Trusted Section Start----------- */
 
 /* trusted logos wraper */
 .trusted_section {
@@ -923,7 +923,7 @@ position: relative;
 
 
 
-/* ----------Feature-Detail-Section-start------ */
+/* ----------Feature-Detail Section-start------ */
 
 /* features section wraper */
 .features_section {
@@ -1018,7 +1018,7 @@ position: relative;
   50% {transform: rotate(180deg);}
 }
 
-/* -----------------About-App-Section-Css-Start------------------ */
+/* -----------------About-App Section Start------------------ */
 
 /* about us section wraper */
 .about_app_section  {
@@ -1105,7 +1105,7 @@ position: relative;
 }
 
 
-/* -------------How_It_Works-Section-Css-Start------------------ */
+/* -------------How_It_Works Section Start------------------ */
 
 /* how it works wraper */
 .how_it_works {
@@ -1279,10 +1279,11 @@ position: relative;
 
 .how_it_works .yt_video .thumbnil {
     position: relative;
+    width: 100%;
 }
 
 .how_it_works .yt_video .thumbnil img {
-    max-width: 100%;
+   width: 100%;
 }
 
 .how_it_works .yt_video .thumbnil a {
@@ -1400,7 +1401,7 @@ iframe#youtubevideo {
   50% {transform: rotate(180deg);}
 }
 
-/* -----------Interface_Section-Css-Start----------------- */
+/* -----------Interface_Section Start----------------- */
 
 /* interface wraper */
 .interface_section .screen_slider {
@@ -1524,7 +1525,7 @@ box-shadow: 1px 4px 8px -2px rgba(0,0,0,0.5);
     pointer-events: none;
 }
 
-/* ---------------Latest_Story-Css-Start------------- */
+/* ---------------Latest_Story Start------------- */
 
 /* latest story wraper */
 .latest_story {
@@ -1593,8 +1594,59 @@ box-shadow: 1px 4px 8px -2px rgba(0,0,0,0.5);
 }
 
 
+/* -------------Footer Section Start------------- */
 
-/* -------------Newsletter-Section-Css-Start------------- */
+  .footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: var(--purple);
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--purple);
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--purple);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .btn.btn-square {
+    color: var(--purple);
+    border: 1px solid var(--purple);
+    }
+
+    .footer .btn.btn-square:hover {
+    color: #FFFFFF;
+    background: var(--purple);
+    }
+
+    .footer .copyright {
+    padding: 25px 0;
+    border-top: 1px solid rgba(17, 17, 17, .1);
+    }
+
+    .footer .copyright a {
+    color: var(--purple);
+    }
+
+    .footer .copyright a:hover {
+    color: var(--dark);
+    }
+
+
+/* -------------Newsletter Section Start------------- */
 
 /* newsletter  wraper */
 .newsletter_box {
@@ -1692,7 +1744,7 @@ box-shadow: 1px 4px 8px -2px rgba(0,0,0,0.5);
 }
 
 
-/* ------Footer-Css-Start-------------- */
+/* ------Footer Start-------------- */
 /* footer wraper */
 
 /* footer go top button */
@@ -1709,7 +1761,7 @@ box-shadow: 1px 4px 8px -2px rgba(0,0,0,0.5);
     bottom: 80px;
 }
 
-/* -----------Animation-Css-Start-------------- */
+/* -----------Animation Start-------------- */
 
 /* animation line wraper */
 .anim_line {
@@ -1812,7 +1864,7 @@ footer .top_footer .anim_line span:nth-child(2) {
 
 
 
-/* --------Object-Moving-Animation-Css-Start----- */
+/* --------Object-Moving-Animation Start----- */
 .moving_animation {
     animation: moving_object 6s infinite linear;
 }
