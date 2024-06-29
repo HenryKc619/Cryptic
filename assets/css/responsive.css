@@ -86,17 +86,17 @@
 @media screen and (max-width:992px) {
 
     /* navigation section */
-    .navbar-toggler-icon {display: flex; align-items: center; color: var(--body-text-purple); justify-content: flex-end;}
+    .navbar-toggler-icon {display: flex;     -webkit-box-align: center;   -ms-flex-align: center;   -webkit-align-items: center;   align-items: center; color: var(--body-text-purple); justify-content: flex-end;}
     .free_app_section .container .free_app_inner .free_text .section_title h2 , .section_title h2 {font-size: 30px;}
     header.fix_style {padding: 5px 0;}
 
 
      /* navigation section */
-    .navbar-expand-lg .navbar-nav {align-items: flex-start;}
+    .navbar-expand-lg .navbar-nav { -webkit-box-align: start;   -ms-flex-align: start;   -webkit-align-items: flex-start;   align-items: flex-start;}
     .navbar-toggler {padding-right: 0; line-height: 1.7;}
-    .navbar-expand-lg .navbar-nav {padding: 20px 15px; background-color: var(--bg-white); border-radius: 15px; box-shadow: 0 4px 10px #EDE9FE; border: 1px solid var(--light-purple) ;}
+    .navbar-expand-lg .navbar-nav {padding: 20px 15px; background-color: var(--bg-white);  -webkit-border-radius: 15px;   -moz-border-radius: 15px;   border-radius: 15px; box-shadow: 0 4px 10px #EDE9FE; border: 1px solid var(--light-purple) ;}
     .navbar-expand-lg .navbar-nav .nav-link.dark_btn {margin-left: 0; margin-top: 15px;}
-    .navbar-expand-lg .navbar-nav .has_dropdown {flex-direction: column; align-items: flex-start; width: 100%; box-shadow: none;}
+    .navbar-expand-lg .navbar-nav .has_dropdown {   -webkit-box-orient: vertical;   -webkit-box-direction: normal;    -ms-flex-direction: column;   -webkit-flex-direction: column;   flex-direction: column;  -webkit-box-align: start;   -ms-flex-align: start;   -webkit-align-items: flex-start;   align-items: flex-start; width: 100%; box-shadow: none;}
     .navbar-expand-lg .navbar-nav .has_dropdown:hover {box-shadow: none;}
     .navbar-expand-lg .navbar-nav .has_dropdown .drp_btn {position: absolute; right: 0; padding: 0 10px;}
     .navbar-expand-lg .navbar-nav .has_dropdown .sub_menu {position: relative; opacity: 1; pointer-events: all; top: auto; background-color: transparent; width: 100%; border-bottom: 1px solid #6b49f268; border-radius: 0; width: 100%; min-width: 100%; max-width: 100%; margin-left: 10px; display: none; box-shadow: none; margin-top: 0;}
@@ -110,11 +110,11 @@
     .banner_section .banner_slider .left_icon {left: 0;}
     .banner_section .banner_slider .right_icon {right: 0;}
     .banner_section {text-align: center;}
-    .banner_section .app_btn , .banner_section .used_app {justify-content: center;}
-    .trial_box {justify-content: center;}
+    .banner_section .app_btn , .banner_section .used_app {  -webkit-box-pack: center;   -ms-flex-pack: center;   -webkit-justify-content: center;   justify-content: center;}
+    .trial_box {  -webkit-box-pack: center;   -ms-flex-pack: center;   -webkit-justify-content: center;   justify-content: center;}
     .trial_box form {width: 80%;}
     .trial_box form .form-group .form-control {width: 370px;}
-    .trial_box_list ul {justify-content: center;}
+    .trial_box_list ul {  -webkit-box-pack: center;   -ms-flex-pack: center;   -webkit-justify-content: center;   justify-content: center;}
     .banner_section .banner_images {margin-top: 100px;}
 
     /* hero banner bg animation */
@@ -131,7 +131,7 @@
 
     /* about app section */
     .about_app_section .row {flex-direction: column-reverse;}
-    .about_app_section .about_img {justify-content: flex-start; margin-top: 75px; margin-left: 0;}
+    .about_app_section .about_img {  -webkit-box-pack: start;    -ms-flex-pack: start;   -webkit-justify-content: flex-start;   justify-content: flex-start; margin-top: 75px; margin-left: 0;}
     .about_app_section .about_img::before {left: 50%;}
     .about_app_section .about_img .screen_img {margin-left: -170px;}
     .about_app_section .about_text .app_statstic {justify-content: flex-start;}
@@ -142,7 +142,7 @@
     .modernui_section_bg {right: -700px;}
     .modern_ui_section .ui_images {margin-top: 30px;}
     .modern_ui_section .ui_text {padding-right: 0;}
-    .modern_ui_section .ui_images .right_img {display: flex; flex-direction: column; align-items: center;}
+    .modern_ui_section .ui_images .right_img {display: flex;    -webkit-box-orient: vertical;   -webkit-box-direction: normal;    -ms-flex-direction: column;   -webkit-flex-direction: column;   flex-direction: column;     -webkit-box-align: center;   -ms-flex-align: center;   -webkit-align-items: center;   align-items: center;}
 
     /* how it work section */
     .how_it_works .step_block ul li .step_text, .how_it_works .step_block ul li .step_img {width: 280px;}
@@ -170,8 +170,8 @@
     .latest_story .story_box .story_text {padding: 15px;}
 
     /* newsletter section */
-    .newsletter_box {flex-direction: column; padding: 30px 20px;}
-    .newsletter_box .section_title , .newsletter_box form {width: 100%; margin: 10px 0; justify-content: center;}
+    .newsletter_box {   -webkit-box-orient: vertical;   -webkit-box-direction: normal;    -ms-flex-direction: column;   -webkit-flex-direction: column;   flex-direction: column; padding: 30px 20px;}
+    .newsletter_box .section_title , .newsletter_box form {width: 100%; margin: 10px 0;   -webkit-box-pack: center;   -ms-flex-pack: center;   -webkit-justify-content: center;   justify-content: center;}
     .newsletter_box form .form-group .form-control {width: 350px;}
     .newsletter_box .section_title h2, .newsletter_box .section_title p {text-align: center;}
 
@@ -199,7 +199,7 @@
     /* banner section */
     .banner_section {margin-top: 100px;}
     .banner_section .banner_text h1 {font-size: 30px;}
-    .banner_section .app_btn , .banner_section .used_app {justify-content: center;}
+    .banner_section .app_btn , .banner_section .used_app {  -webkit-box-pack: center;   -ms-flex-pack: center;   -webkit-justify-content: center;   justify-content: center;}
     .banner_section .app_btn li:last-child {margin-left: 0;}
     .banner_section .app_btn li {margin: 0 15px;}
     .banner_section .app_btn li a {padding: 10px 10px;}
@@ -207,7 +207,7 @@
     .banner_section .banner_slider .left_icon {left: -40px;}
     .banner_section .banner_slider .right_icon {right: -40px; z-index: 1000;}
     .banner_section .banner_slider::before {width: 350px; height: 350px;}
-    .trial_box form {flex-direction: column;}
+    .trial_box form {   -webkit-box-orient: vertical;   -webkit-box-direction: normal;    -ms-flex-direction: column;   -webkit-flex-direction: column;   flex-direction: column;}
     .trial_box form .form-group .form-control {width: 100%; margin-bottom: 10px;}
     .banner_section .banner_images {text-align: center;}
         .banner_section .banner_images img {width: 48%;}
@@ -231,10 +231,10 @@
 
     /* about app section */
     .about_app_section .about_text , .about_app_section .about_text .section_title {text-align: center;}
-    .about_app_section .about_text .app_statstic {margin-top: 0; justify-content: space-between;}
+    .about_app_section .about_text .app_statstic {margin-top: 0; -webkit-box-pack: justify;   -ms-flex-pack: justify;   -webkit-justify-content: space-between;   justify-content: space-between;}
     .about_app_section .about_text .app_statstic li {width: 48%; margin-right: 0;}
     .about_app_section .about_text .app_statstic li p:first-child {font-size: 18px;}
-    .about_app_section .about_img {margin: 0; margin-top: 50px; justify-content: center;}
+    .about_app_section .about_img {margin: 0; margin-top: 50px;   -webkit-box-pack: center;   -ms-flex-pack: center;   -webkit-justify-content: center;   justify-content: center;}
     .about_app_section .about_img::before {width: 350px; height: 350px;}
 
     /* modern ui section */
@@ -246,14 +246,14 @@
     .modern_ui_section .ui_images img {max-width: 100%;}
     .modern_ui_section .ui_images::before {width: 350px; height: 350px;}
     .modern_ui_section .ui_images .left_img {width: 70%;}
-    .modern_ui_section .ui_images .right_img {justify-content: center;}
+    .modern_ui_section .ui_images .right_img {  -webkit-box-pack: center;   -ms-flex-pack: center;   -webkit-justify-content: center;   justify-content: center;}
     .modern_ui_section .ui_images .right_img img:nth-child(1) {top: 0; width: 100px;}
     .modern_ui_section .ui_images .right_img img:nth-child(3) {margin-top: 0;}
 
     /* how it work section */
     .how_it_works .how_it_inner {padding: 50px 15px;}
     .how_it_works .step_block ul {padding-top: 30px;}
-    .how_it_works .step_block ul li , .how_it_works .step_block ul li:nth-child(2) {flex-direction: column; padding-left: 30px;}
+    .how_it_works .step_block ul li , .how_it_works .step_block ul li:nth-child(2) {   -webkit-box-orient: vertical;   -webkit-box-direction: normal;    -ms-flex-direction: column;   -webkit-flex-direction: column;   flex-direction: column; padding-left: 30px;}
     .how_it_works .step_block ul li .step_text h4 {font-size: 18px;}
     .how_it_works .step_block ul li::before {left: 0; transform: none; height: calc(100% + 10px); top: 40px;}
     .how_it_works .step_block ul li:first-child::before {height: calc(100% + 50px);}
@@ -265,8 +265,8 @@
     .how_it_works .step_block ul li:last-child::before {opacity: 0;}
     .how_it_works .step_block ul li .step_number h3 {font-size: 15px; margin-bottom: 0; margin-top: -2px;}
     .how_it_works .yt_video {margin-top: -50px;}
-    .how_it_works .yt_video .thumbnil {height: 300px; border-radius: 15px;}
-    .how_it_works .yt_video .thumbnil img {height: 100%; object-fit: cover; object-position: center; border-radius: 15px;}
+    .how_it_works .yt_video .thumbnil {height: 300px;  -webkit-border-radius: 15px;   -moz-border-radius: 15px;   border-radius: 15px;}
+    .how_it_works .yt_video .thumbnil img {height: 100%; object-fit: cover; object-position: center;  -webkit-border-radius: 15px;   -moz-border-radius: 15px;   border-radius: 15px;}
     .how_it_works .yt_video .thumbnil a {width: 100%;}
     .how_it_works .yt_video .thumbnil a .play_btn::after {width: 140px; height: 140px;}
     .how_it_works .yt_video .thumbnil a .play_btn::before {width: 120px; height: 120px;}
@@ -293,10 +293,10 @@
 
     /* download section */
     .free_app_section .container .free_app_inner {padding: 50px 15px; padding-bottom: 0; z-index: 99;}
-    .free_app_section .container .free_app_inner .free_img {margin-top: 0; justify-content: center;}
+    .free_app_section .container .free_app_inner .free_img {margin-top: 0;   -webkit-box-pack: center;   -ms-flex-pack: center;   -webkit-justify-content: center;   justify-content: center;}
     .free_app_section .container .free_app_inner .free_img img {max-width: 100%;}
     .free_app_section .container .free_app_inner .free_text .section_title {text-align: center;}
-    .free_app_section .container .free_app_inner .free_text .app_btn {flex-direction: column;}
+    .free_app_section .container .free_app_inner .free_text .app_btn {   -webkit-box-orient: vertical;   -webkit-box-direction: normal;    -ms-flex-direction: column;   -webkit-flex-direction: column;   flex-direction: column;}
     .free_app_section .container .free_app_inner .free_text .app_btn li a {width: 100%; text-align: center;}
     .free_app_section .container .free_app_inner .free_text .app_btn li:last-child {margin-left: 0; margin-top: 15px;}
 
@@ -304,14 +304,14 @@
     .latest_story .story_box {margin-bottom: 30px;}
 
     /* newsletter section */
-    .newsletter_box form {flex-direction: column; align-items: center;}
+    .newsletter_box form {   -webkit-box-orient: vertical;   -webkit-box-direction: normal;    -ms-flex-direction: column;   -webkit-flex-direction: column;   flex-direction: column;     -webkit-box-align: center;   -ms-flex-align: center;   -webkit-align-items: center;   align-items: center;}
     .newsletter_box form .form-group {width: 100%;}
     .newsletter_box form .form-group .form-control {width: 100%; margin-bottom: 15px;}
     .newsletter_box .section_title p {font-size: 13px;}
 
     /* footer section */
     footer .links , footer .abt_side {margin-bottom: 30px;}
-    footer .top_footer .social_media {justify-content: center;}
+    footer .top_footer .social_media {  -webkit-box-pack: center;   -ms-flex-pack: center;   -webkit-justify-content: center;   justify-content: center;}
     footer .top_footer .social_media li a {margin: 0 5px;}
     footer .top_footer .try_out {margin-left: 0;}
     footer .app_btn li a {margin: 0 auto;}
